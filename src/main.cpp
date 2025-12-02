@@ -1,9 +1,13 @@
-#include "Character.h"
+#include <iostream>
+#include "PlayerCreation.h"
 #include "Combat.h"
 
 int main() {
-    Character player{"Hero", 20, 13, 6};
-    Character goblin{"Goblin", 12, 12, 4};
+    Character player = createPlayer();
+
+    Character goblin("Goblin", 12, 11, 4);
+
+    std::cout << "\nYour adventure begins, " << player.name << "!\n\n";
 
     combat(player, goblin);
 
