@@ -3,7 +3,7 @@ CXX = g++
 CXXFLAGS = -std=c++17 -Wall
 
 # Source files
-SRC = src/main.cpp src/Combat.cpp src/Utils.cpp src/PlayerCreation.cpp
+SRC = src/main.cpp src/Combat.cpp src/Utils.cpp src/PlayerCreation.cpp src/Room.cpp src/Dungeon.cpp
 
 # Output executable name
 OUT = dungeon_rpg

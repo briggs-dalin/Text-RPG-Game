@@ -5,7 +5,7 @@
 Character createPlayer() {
     std::cout << "Welcome to Dungeon Adventure!\n";
     std::cout << "Choose your class:\n";
-    std::cout << "1. Warrior  (High HP, High AC)\n";
+    std::cout << "1. Warrior  (High HP, High AC, Lower Damage)\n";
     std::cout << "2. Rogue    (Balanced, Good Damage)\n";
     std::cout << "3. Mage     (Low HP, High Damage)\n";
 
