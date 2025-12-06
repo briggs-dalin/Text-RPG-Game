@@ -6,7 +6,7 @@ The game is played entirely in the console. Players begin by choosing a characte
 
 My purpose in creating this project was to practice core C++ programming concepts, understand how to structure a multi-file application, and build a small but functional program that could be expanded with more complex features in the future.
 
-Software Demo Video: [insert Loom link here]
+Software Demo Video: https://www.loom.com/share/6aa9a4d097d0427fb279d999e02ea8a8
 
 Development Environment:
 
