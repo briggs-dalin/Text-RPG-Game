@@ -2,6 +2,7 @@
 #include "PlayerCreation.h"
 #include "Combat.h"
 #include "Dungeon.h"
+#include "SaveSystem.h"
 
 int main() {
     Character player = createPlayer();
@@ -58,5 +59,8 @@ int main() {
     }
 
     std::cout << "\nCongratulations! You completed the dungeon!\n";
+
+    savePlayer(player);
+    
     return 0;
 }
