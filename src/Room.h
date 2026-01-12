@@ -10,8 +10,10 @@ public:
 
     int nextRoom1;
     int nextRoom2;
+    std::string item;  
 
-    Room(std::string desc, bool hasEnemy, Character enemy, int next1, int next2)
+    
+    Room(std::string desc, bool hasEnemy, Character enemy, int next1, int next2, std::string loot = "")
         : description(desc), hasEnemy(hasEnemy), enemy(enemy),
-          nextRoom1(next1), nextRoom2(next2) {}
+          nextRoom1(next1), nextRoom2(next2), item(loot) {}
 };
