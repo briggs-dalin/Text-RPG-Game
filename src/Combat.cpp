@@ -49,6 +49,12 @@ void combat(Character& player, Character& enemy) {
 
     while (player.hp > 0 && enemy.hp > 0) {
 
+        //Display current HP
+        std::cout << "--------------------------\n";
+        std::cout << player.name << ": " << player.hp << " HP\n";
+        std::cout << enemy.name << ": " << enemy.hp << " HP\n";
+        std::cout << "--------------------------\n\n";
+
         // PLAYER TURN
         int choice;
         std::cout << "Your turn:\n";
